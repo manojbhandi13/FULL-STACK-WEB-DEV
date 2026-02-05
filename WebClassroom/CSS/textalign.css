@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    text-decoration: wavy red underline;
+    letter-spacing: 10px;
+    font-family: arial;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: pink line-through;
+}
+
+p {
+    text-align: right;
+    line-height: 1.5;
+}
+
+h2 {
+    text-decoration: double blue overline;
+    font-family: impact;
+}
+
+a {
+    text-decoration: none;
+}

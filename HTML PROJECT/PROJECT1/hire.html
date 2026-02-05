@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire-Me</title>
+</head>
+<body>
+    <header>
+        <h1>Please fill in the below form to work with Me.!</h1>
+    </header>
+    <main>
+        <!---method="post"--->
+        <!--figure figcaption-->
+        <!--fieldset legend-->
+        <form action="/server"> 
+          <fieldset>
+             <div>
+             <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="enter your name" name="nm">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="enter your email id" name="email">
+            </div>
+            <br>
+           <div>
+             <label for="brand">Company/Brand Name: </label>
+            <input type="text" id="brand" placeholder="company/brand name" name="brand">
+           </div>
+           <br>
+          </fieldset>
+          <br>
+          <fieldset>
+            <div>
+            <label for="service">What service do you need?: </label>
+            <select name="service" id="service">
+                <option value="">Select Service</option>
+                <option value="web">Related to Web</option>
+                <option value="content">Related to Content Creation</option>
+                <option value="both">Both</option>
+            </select>
+           </div>
+           <br>
+           <div>
+            <label for="description">Project Description: </label>
+            <br>
+            <textarea name="description" id="description" placeholder="Provide detailed description related to your project" rows="5" cols="20"></textarea>
+           </div>
+           <br>
+           <div>
+            <label for="goals">Goals of the Project: </label>
+            <br>
+            <textarea name="goals" id="goals" placeholder="Specify your project goals" rows="5" cols="20"></textarea>
+           </div>
+           <br>
+           <div>
+            <label for="date">Project DeadLine: </label>
+            <input type="date" id="date" name="date">
+           </div>
+          </fieldset>
+           <br>
+          <fieldset>
+             <div>
+            <label for="budget">Budget Range in Dollars: </label>
+            <input type="range" name="budget" id="budget" min="1000" max="100000" step="1000">
+           </div>
+           <br>
+           <div>
+            <label>One-time or ongoing project?: </label>
+            <br>
+            <input type="radio" name="span" id="ot" value="Ot">
+            <label for="ot">One-time</label><br>
+            <input type="radio" name="span" id="og" value="og">
+            <label for="og">Ongoing</label>
+           </div>
+           <br>
+           <div>
+            <label for="">Preferred Communication Method: </label>
+            <br>
+            <input type="radio" name="contact" value="email" id="email1">
+            <label for="email1">Email</label><br>
+            <input type="radio" name="contact" value="phone" id="phone">
+            <label for="phone">Phone</label><br>
+            <input type="radio" name="contact" value="meet" id="meet">
+            <label for="meet">Virtual Meet</label>
+           </div>
+           <br>
+           <div>
+            <label for="notes">Additional Notes: </label>
+            <br>
+            <textarea name="notes" id="notes" placeholder="Do you want to convey something else?" rows="5" cols="20"></textarea>
+           </div>
+          </fieldset>
+           <br>
+           <fieldset>
+            <div>
+            <input type="checkbox" id="t&c" name="t&c">
+           <label for="t&c">Do you agree to my <a href="t&c.html">Terms &amp; Conditions?</a></label>
+           </div>
+           <br>
+           <button type="submit">Hire Me...!</button>
+           </fieldset>
+        </form>
+    </main>
+</body>
+</html>

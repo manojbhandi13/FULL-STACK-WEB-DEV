@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Recreation</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="nme">Name:</label>
+        <input type="text" id="nme" name="name">
+        <br>
+        <br>
+        <div>
+            <label>Sex:</label>
+        <input type="radio" name="sex" id="ml" value="male">
+        <label for="ml" >Male</label>
+        <input type="radio" name="sex" id="fl" value="female">
+        <label for="fl">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country: </label> 
+        <select name="country" id="country">
+            <option value="">Select an option</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select>
+        </div>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="msg" id="message" rows="4" cols="40"></textarea>
+        <br>
+        <br>
+        <div>
+            <input type="checkbox" id="sb" name="subscribe">
+        <label for="sb">Subscribe?</label>
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

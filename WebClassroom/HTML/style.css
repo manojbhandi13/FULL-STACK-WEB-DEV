@@ -1,0 +1,16 @@
+hr {
+  border: none;
+  border-top: 3px double #333333;
+  color: #333333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: white;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
