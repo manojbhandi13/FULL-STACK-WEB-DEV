@@ -1,3 +1,5 @@
+/*text-align property works based on the parent element and not on the basis of document layout */
+
 h1 {
     text-align: center;
     text-decoration: wavy red underline;
