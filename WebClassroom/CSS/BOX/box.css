@@ -4,6 +4,13 @@ div
     width: 100px;
     background-color: pink;
     /* Trying to set the height of the element less than its default*/
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    /* border: 2px solid brown; (shorthand) */
+
+    text-align: right;
 }
 
 h1
@@ -11,4 +18,12 @@ h1
     width: 200px;
     height: 50px;
     background-color: aquamarine;
+
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black; 
+    /* border: 3px dashed black; (shorthand) */
+    
+    text-align: center;
+    /* content aligns to center not as per the document, but as per the space provided to the element (box model) */
 }

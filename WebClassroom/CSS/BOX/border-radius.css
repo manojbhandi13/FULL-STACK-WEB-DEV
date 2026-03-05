@@ -1,0 +1,20 @@
+div
+{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+
+    border-radius: 15px;
+}
+
+#circle
+{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    text-align: center;
+
+    border-radius: 50%;
+}
