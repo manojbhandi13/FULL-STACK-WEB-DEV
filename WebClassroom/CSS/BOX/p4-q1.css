@@ -1,0 +1,59 @@
+footer
+{
+    background-color: grey;
+}
+
+#navbar
+{
+    background-color: #0f1111;
+    height: 60px;
+    border: 4px solid white;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+#logo
+{
+    color: #f08804;
+    font-size: 25px;
+}
+
+button
+{
+    background-color: #f08804;
+}
+
+p
+{
+    color: white;
+    margin: 0;
+}
+
+#div1
+{
+    width: 100px;
+    height: 100px; 
+    border: 4px solid white;
+    background-color: red; 
+}
+
+#div2
+{
+     width: 100px;
+    height: 100px; 
+    border: 4px solid white;
+    background-color: green;
+} 
+
+#div3
+{
+    width: 100px;
+    height: 100px; 
+    border: 4px solid white;
+    background-color: blue; 
+} 
