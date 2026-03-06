@@ -1,0 +1,33 @@
+div
+{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;  /*margin value set is not applicable at top and bottom. 
+                        height and width values set are also not applicable.
+                        content area will be what the content needs, only.
+                        HERE COMES THE USE OF THE VALUE, inline-block
+                        Block element becomes inline, and all the properties such
+                        as margin, padding, height & width can be set.
+                        If we want to make block elements inline, and also want
+                        to set the properties as if they were block, we can set
+                        the display property as inline-block .*/
+}
+
+#one
+{
+    background-color: blue;
+}
+
+#two
+{
+    background-color: green;
+    /* display: none;  (space is not reserved)*/
+    /* visibility: hidden;    (space is reserved)*/
+}
+
+#three
+{
+    background-color: red;
+}
