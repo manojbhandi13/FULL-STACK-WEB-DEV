@@ -1,0 +1,20 @@
+#box1
+{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+
+#box2 {
+    width: 30%;
+    height: 50px;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em; 
+    width: 5rem; /*Relative to font size of the root element*/ 
+}
+
+/* vh: Relative to 1% of viewport height 
+    vw:  Relative to 1% of viewport width*/
