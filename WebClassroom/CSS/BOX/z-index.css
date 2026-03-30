@@ -1,0 +1,31 @@
+#box1
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: red;
+    border: 2px solid black;
+    
+}
+
+#box2
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: green;
+    border: 2px solid black;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    z-index: -1;
+}
+
+#box3
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    border: 2px solid black;
+}
