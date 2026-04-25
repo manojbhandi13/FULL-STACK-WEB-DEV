@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+}
+
+div{
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: darkkhaki;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+}
+
+#container1{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end; /*No direction reversal*/
+}
+
+#container2{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#container3{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container4{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container5{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container6{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#container7{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#container8{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container9{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container10{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container11{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
