@@ -1,0 +1,51 @@
+body
+{
+    text-align: center;
+}
+
+div
+{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+p
+{
+    font-size: large;
+}
+
+#container
+{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;   
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75px;
+    flex-grow: 2;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+}
