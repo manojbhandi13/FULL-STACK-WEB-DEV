@@ -1,0 +1,53 @@
+body
+{
+    text-align: center;
+}
+
+div
+{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+p
+{
+    font-size: large;
+}
+
+#container
+{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* align-content: flex-start; */
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+    align-self: flex-end;   /*<<---*/
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75px;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+    align-self: flex-end;
+}
