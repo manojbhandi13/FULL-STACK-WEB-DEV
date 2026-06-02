@@ -1,0 +1,35 @@
+/* align-self has more priority than align-items. align-items is for flexbox. align-self is for flex
+item explicitly. align-self is given priority even if align-items is written after align-self. 
+( X cascading effect) */
+
+#flexbox {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed black;
+}
+
+#flexitem {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed black;
+    color: maroon;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*To center inside the body, center to screen, vertically*/
+    margin: 0;
+}
