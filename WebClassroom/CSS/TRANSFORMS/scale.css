@@ -1,0 +1,29 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition: all 2s ease-in;
+}
+
+div:hover{
+    transform: scale(2) rotate(360deg);
+    /* transform: scale(2,2); */
+    /* transform: scaleY(2);  
+    transform: scaleX(2);   */
+    background-color: blue;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:400px) and (max-width:800px){
+    div{
+        transform: scale(2) rotate(360deg);
+        background-color: red;
+    }
+}
