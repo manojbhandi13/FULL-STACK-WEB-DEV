@@ -1,0 +1,25 @@
+/* Rotations along x-axis, y-axis & z-axis exists. Which is 3D Transformation. */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transform: rotate(45deg); */
+    transition: all 5s ease 1s;
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    transform: rotate(360deg);
+}
+
+div:active{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    transform: rotate(-360deg);
+}
+
