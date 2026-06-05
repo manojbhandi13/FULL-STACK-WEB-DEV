@@ -1,0 +1,24 @@
+/* Mixture of different effects */
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    background-color: beige;
+    border: 2px solid black;
+    /* border-radius: 10px 100px / 120px; */
+    border-radius: 50% 20% / 10% 40%;
+    transition: all 2s ease;
+}
+
+div:hover {
+    /* transform: skew(-50deg); */
+    transform: skewY(-50deg);
+}
