@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition: all 2s ease;
+}
+
+/* Translation in 8 different directions */
+div:hover {
+    transform: translate(100px);
+    /* transform: translate(-100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(300px, -300px); */
+    /* transform: translate(300px, 300px); */
+    /* transform: translate(-300px, 300px); */
+    /* transform: translate(-300px, -300px); */
+}
+
+/* Bounce */
+/* transition: all 0.25s ease;*/
+/* div:hover{
+    transform: translateY(-8px) scale(1.1);
+} */
