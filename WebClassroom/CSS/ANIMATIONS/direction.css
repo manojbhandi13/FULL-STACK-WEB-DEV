@@ -1,0 +1,66 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    /* animation-name: Motion;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: 5; */
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    animation: aniMotion 3s ease-in-out 0.2s 6 alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+@keyframes aniMotion {
+    from {
+        left: 500px;
+        background-color: aquamarine;
+        border-radius: 0%;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-width: 2px;
+    }
+
+    to {
+        left: 800px;
+        background-color: red;
+        border-radius: 50%;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-width: 4px;
+    }
+}
+
+@keyframes backGround {
+    from {
+        background-color: red;
+        border-width: 30px;
+        border-color: aquamarine;
+    }
+    to {
+        background-color: aquamarine;
+        border-width: 20px;
+        border-color: red;
+    }
+}
+
+body {
+    background-color: red;
+    animation: backGround 3s ease-in-out 0.2s 6 alternate;
+    border: 30px solid aquamarine;
+    min-height: 100vh; 
+    margin: 0;
+    box-sizing: border-box; 
+}

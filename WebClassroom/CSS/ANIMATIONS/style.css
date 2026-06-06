@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: aquamarine;
+    }
+
+    to {
+        background-color: red;
+    }
+}

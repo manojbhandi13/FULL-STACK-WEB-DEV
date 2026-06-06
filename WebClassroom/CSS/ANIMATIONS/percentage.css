@@ -1,0 +1,30 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    animation: chromoCoordinate 3s ease-in-out 0.2s 6 alternate;
+}
+
+@keyframes chromoCoordinate {
+    0% {
+        left: 500px;
+        background-color: aquamarine;
+    }
+    25% {
+        background-color: blueviolet;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: brown;
+    }
+    100% {
+        left: 800px;
+        background-color: red;
+    }
+}
