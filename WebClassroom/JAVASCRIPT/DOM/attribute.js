@@ -17,3 +17,7 @@ console.dir(`Class for p is ${para}`);
 let paraSecond = document.querySelector(".para1");
 paraSecond.setAttribute("class", "newPara");
 console.dir(paraSecond.getAttribute("class"));
+
+//Set Attribute Value (adding new attribute with value)
+let heading = document.querySelector("h2");
+heading.setAttribute("class", "heading-class");
