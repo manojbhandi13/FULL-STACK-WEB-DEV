@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+}
+
+#sec-div {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+}
+    </style>
+</head>
+<body>
+    <!-- Inline Event Handling -->
+    <button id="button1" onclick="console.log('Hello Inline!');">
+        buttonOne
+    </button>
+    <button ondblclick="console.log('button was clicked 2x!');">
+        Click Me 2 Times!
+    </button>
+    <div>
+        This is a box
+    </div>
+    <button id="btn"> Click Here</button>
+    <div id="sec-div">
+        This is second box
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
