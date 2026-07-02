@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .hidden {
+            display: none;
+        }
+        .active {
+            color: dodgerblue;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: grey;
+        }
+        .urgent {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="dashboard-title">My Dashboard</h1>
+    <!-- Personal Info Section -->
+    <div id="profile" data-user="guest">
+        <h3 id="username">Guest User</h3>
+        <p id="bio">No bio available.</p>
+    </div>
+    <div id="skills-section">
+        <h3>My Skills</h3>
+        <ul id="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    <div id="tasks-section">
+        <h3>My Tasks</h3>
+        <ul id="task-list">
+            <li id="task-1">Complete DOM challenge</li>
+            <li id="task-2">Push code to GitHub</li>
+            <li id="task-3">Start Events topic</li>
+        </ul>
+    </div>
+    <div id="stats-section">
+        <p id="skill-count"></p>
+        <p id="task-count"></p>
+    </div>
+    <script src="complete-dom.js"></script>
+</body>
+</html>
