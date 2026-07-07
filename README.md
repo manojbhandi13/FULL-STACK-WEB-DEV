@@ -20,7 +20,8 @@ Commits are organized by concept with descriptive messages for easy navigation a
 ![Documnet Object Model (JS)](<https://img.shields.io/badge/Document_Object_Model_(JS)-Completed-green>)
 ![Events in JavaScript](https://img.shields.io/badge/Events_in_JavaScript-Completed-green)
 
-![Building a Game](https://img.shields.io/badge/Building_a_Game-In_Progress-yellow)
+![Stone Paper Scissors Game](https://img.shields.io/badge/Stone_Paper_Scissors_Game-Completed-green)
+![Tic Tac Toe Game](https://img.shields.io/badge/Tic_Tac_Toe_Game-In_Progress-yellow)
 
 ![React.js](https://img.shields.io/badge/React.js-Upcoming-lightgrey)
 
