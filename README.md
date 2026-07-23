@@ -21,7 +21,7 @@ Commits are organized by concept with descriptive messages for easy navigation a
 ![Events in JavaScript](https://img.shields.io/badge/Events_in_JavaScript-Completed-green)
 
 ![Stone Paper Scissors Game](https://img.shields.io/badge/Stone_Paper_Scissors_Game-Completed-green)
-![Tic Tac Toe Game](https://img.shields.io/badge/Tic_Tac_Toe_Game-In_Progress-yellow)
+![Tic Tac Toe Game](https://img.shields.io/badge/Tic_Tac_Toe_Game-Completed-green)
 
 ![React.js](https://img.shields.io/badge/React.js-Upcoming-lightgrey)
 
