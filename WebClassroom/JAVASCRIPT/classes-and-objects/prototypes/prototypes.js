@@ -1,3 +1,6 @@
+// A JavaScript object is an entity having state & behaviour (properties & methods)
+// JS objects have a special property called prototypes
+// We can set prototypes using "__proto__"
 const student = {
   fullName: "manojbhandi", //property; also called states
   marks: 94.4, //property; also called states
