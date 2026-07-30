@@ -23,6 +23,11 @@ Commits are organized by concept with descriptive messages for easy navigation a
 ![Stone Paper Scissors Game](https://img.shields.io/badge/Stone_Paper_Scissors_Game-Completed-green)
 ![Tic Tac Toe Game](https://img.shields.io/badge/Tic_Tac_Toe_Game-Completed-green)
 
+![Prototypes](https://img.shields.io/badge/Prototypes-Completed-green)
+![Classes & Objects](https://img.shields.io/badge/Classes_&_Objects-Completed-green)
+
+![Async JS](https://img.shields.io/badge/Async_JS-In_Progress-yellow)
+
 ![React.js](https://img.shields.io/badge/React.js-Upcoming-lightgrey)
 
 ![Node.js + Express.js](https://img.shields.io/badge/Node.js_+_Express.js-Upcoming-lightgrey)
