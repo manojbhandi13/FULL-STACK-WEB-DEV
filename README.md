@@ -26,7 +26,13 @@ Commits are organized by concept with descriptive messages for easy navigation a
 ![Prototypes](https://img.shields.io/badge/Prototypes-Completed-green)
 ![Classes & Objects](https://img.shields.io/badge/Classes_&_Objects-Completed-green)
 
-![Async JS](https://img.shields.io/badge/Async_JS-In_Progress-yellow)
+![Async JS](https://img.shields.io/badge/Async_JS-Completed-green)
+
+![Currency Converter Project](https://img.shields.io/badge/Currency_Converter_Project-In_Progress-yellow)
+
+![CSS Grids](https://img.shields.io/badge/CSS_Grids-In_Progress-yellow)
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Upcoming-lightgrey)
 
 ![React.js](https://img.shields.io/badge/React.js-Upcoming-lightgrey)
 
