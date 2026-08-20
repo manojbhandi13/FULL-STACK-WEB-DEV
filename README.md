@@ -28,7 +28,9 @@ Commits are organized by concept with descriptive messages for easy navigation a
 
 ![Async JS](https://img.shields.io/badge/Async_JS-Completed-green)
 
-![Currency Converter Project](https://img.shields.io/badge/Currency_Converter_Project-In_Progress-yellow)
+![Currency Converter Project](https://img.shields.io/badge/Currency_Converter_Project-Completed-green)
+
+[Currency Converter](https://manojbhandi13.github.io/currency-converter/ "Project")
 
 ![CSS Grids](https://img.shields.io/badge/CSS_Grids-In_Progress-yellow)
 
