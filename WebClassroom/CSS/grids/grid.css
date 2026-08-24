@@ -1,9 +1,3 @@
-/* Grids are used for creating layouts */
-
-/* Powerful layouts are formed by combo of flexbox & grids */
-
-/* display: grid;  */ /* For container*/
-
 * {
     margin: 0;
     padding: 0;
@@ -22,23 +16,39 @@ body {
     display: grid;
     padding: 4rem;
     row-gap: 1rem;
-    /* grid-template-rows: 1fr 1fr; */
-    grid-template-rows: repeat(2, 1fr);
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 1rem;
-    /* gap shorthands */
-    /* gap: 1rem 1rem; */
-    /* gap: 1rem; */
 }
 
 .item {
-    background-color: rgb(150, 150, 245);
+    background-color: rgb(84, 84, 227);
     border: 5px solid black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 2.3rem; */
 }
 
+@media (min-width: 768px) {
+    .container {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-/* block behaviour and inline behaviour */
-/* grid = block outside + grid inside
+    .header, .footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 
-inline-grid = inline outside + grid inside */
+.side-bar {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.content-one {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+}
