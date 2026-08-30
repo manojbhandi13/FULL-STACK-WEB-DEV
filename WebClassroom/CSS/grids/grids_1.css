@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(69, 62, 62);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    gap: 0.4rem;
+    padding: 4rem;
+    border: 2px solid white;
+}
+
+/* justify-self applies to the grid-items and work horizontally */
+/* align-self applies to the grid-items and works vertically */
+/* place-self is the combo of both justify-self & align-self */
+/* place-self: '<align-self>' '<justify-self>' */
+
+.items {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 206, 14);
+    border: 5px solid rgb(217, 202, 202);
+    /* justify-self: center;
+    justify-self: start;
+    justify-self: end; */
+    /* justify-self: stretch; */
+
+    /* align-self: start; default */
+    /* align-self: end; */
+    /* align-self: center; */
+    /* align-self: stretch; */
+    
+    /* place-self: center center; */
+}
+
+#a {
+    place-self: start start;
+}
+
+#b {
+    place-self: start end;
+}
+
+#c {
+    place-self: end end;
+} 
+
+#d {
+    place-self: end start;
+} 
