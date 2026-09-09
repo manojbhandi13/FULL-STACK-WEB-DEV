@@ -32,7 +32,13 @@ Commits are organized by concept with descriptive messages for easy navigation a
 
 [Currency Converter](https://manojbhandi13.github.io/currency-converter/ "Project")
 
-![CSS Grids](https://img.shields.io/badge/CSS_Grids-In_Progress-yellow)
+![CSS Grids](https://img.shields.io/badge/CSS_Grids-Completed-green)
+
+![POST method (fetch())](<https://img.shields.io/badge/POST_method_(fetch())-In_Progress-yellow>)
+
+![WeatherApp](https://img.shields.io/badge/WeatherApp-Upcoming-lightgrey)
+
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-Upcoming-lightgrey)
 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Upcoming-lightgrey)
 
