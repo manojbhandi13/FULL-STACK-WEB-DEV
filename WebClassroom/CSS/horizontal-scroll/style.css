@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100dvh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.products-section {
+    padding: 20px;
+}
+
+.scroll-panel {
+    display: flex;
+    gap: 32px;
+    overflow-x: auto;
+    padding: 10px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+}
+
+.card {
+    width: 260px;
+    height: 120px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    background-color: #e2e8f0;
+    border: 1px solid #64748b;
+    border-radius: 8px;
+}
