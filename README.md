@@ -34,11 +34,13 @@ Commits are organized by concept with descriptive messages for easy navigation a
 
 ![CSS Grids](https://img.shields.io/badge/CSS_Grids-Completed-green)
 
-![POST method (fetch())](<https://img.shields.io/badge/POST_method_(fetch())-In_Progress-yellow>)
+![POST method (fetch())](<https://img.shields.io/badge/POST_method_(fetch())-Completed-Green>)
 
-![WeatherApp](https://img.shields.io/badge/WeatherApp-Upcoming-lightgrey)
+![WeatherApp](https://img.shields.io/badge/WeatherApp-Completed-Green)
 
-![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-Upcoming-lightgrey)
+[Weather App](https://manojbhandi13.github.io/weather-app/ "Project")
+
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-In_Progress-yellow)
 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Upcoming-lightgrey)
 
